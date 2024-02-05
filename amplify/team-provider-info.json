@@ -10,6 +10,14 @@
       "StackName": "amplify-mmitm-dev-165804",
       "StackId": "arn:aws:cloudformation:eu-west-2:586865842618:stack/amplify-mmitm-dev-165804/bac13390-c447-11ee-a49c-06b46d2a17bd",
       "AmplifyAppId": "dwxec7zf6imts"
+    },
+    "categories": {
+      "auth": {
+        "mmitmCognito": {}
+      },
+      "geo": {
+        "mmitmplaceindex": {}
+      }
     }
   }
 }
