@@ -11,7 +11,13 @@ export default function HomeMap() {
             showsUserLocation={true}
             showsMyLocationButton={false}
             customMapStyle={MapStyle}
-            style={StyleSheet.absoluteFillObject}
+            style={styles.map}
         />
     );
 }
+
+const styles = StyleSheet.create({
+    map: {
+        flex: 1,
+    },
+});
